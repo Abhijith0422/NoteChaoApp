@@ -64,13 +64,13 @@ npx http-server
 
 #### Screenshots (Add at least 3)
 
-![Professional Interface](screenshots/interface.png)
+![Professional Interface](https://github.com/Abhijith0422/NoteChaoApp/blob/main/Screenshot%202025-08-09%20145620.png)
 *The deceptively clean and professional interface that hides the chaos within*
 
-![Word Replacement Chaos](screenshots/word-replacement.png)
+![Word Replacement Chaos](https://github.com/Abhijith0422/NoteChaoApp/blob/main/Screenshot%202025-08-09%20145652.png)
 *Demonstration of word replacement feature with animated bubbles showing original→new word transformations*
 
-![Chaotic Undo Bubbles](screenshots/chaotic-undo.png)
+![Chaotic Undo Bubbles](https://github.com/Abhijith0422/NoteChaoApp/blob/main/Screenshot%202025-08-09%20145724.png)
 *Chaotic undo in action - removed letters floating as clickable bubbles that can be popped to restore text at random positions*
 
 #### Diagrams
@@ -85,7 +85,7 @@ npx http-server
 *Video demonstrates all chaos features: typing words that get replaced, chaotic undo creating floating bubbles, auto-typing gibberish after inactivity, random zoom changes, and inverted scrolling*
 
 ### Additional Demos
-- **Live Demo:** [Add GitHub Pages or deployment link]
+- **Live Demo:** [Website](https://note-chao-app.vercel.app/)
 - **Interactive Features Demo:** Try typing "hello world" and pressing space - watch the chaos unfold!
 - **Chaos Level Testing:** Leave the editor idle for 5 seconds after typing to see auto-gibberish in action
 
