@@ -81,7 +81,7 @@ npx http-server
 ## Project Demo
 
 ### Video
-[Add your demo video link here]
+[Video](https://github.com/Abhijith0422/NoteChaoApp/blob/main/NotePad%20-%20Modern%20Text%20Editor%20%E2%80%94%20Mozilla%20Firefox%202025-08-09%2015-09-12.mp4)
 *Video demonstrates all chaos features: typing words that get replaced, chaotic undo creating floating bubbles, auto-typing gibberish after inactivity, random zoom changes, and inverted scrolling*
 
 ### Additional Demos
