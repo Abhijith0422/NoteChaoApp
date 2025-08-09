@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NotePad - Modern Text Editor</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <meta name="description" content="A modern, clean text editor for all your writing needs">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1><i class="fas fa-edit"></i> NotePad</h1>
+            <p>A modern, elegant text editor designed for productivity</p>
+        </header>
+
+        <div class="toolbar">
+            <div class="file-info">
+                <span><i class="fas fa-font"></i> <span id="char-count">0</span> characters</span>
+                <span><i class="fas fa-align-left"></i> <span id="word-count">0</span> words</span>
+            </div>
+            <div class="editor-controls">
+                <button id="undo-btn" class="tool-btn" title="Undo (Ctrl+Z)">
+                    <i class="fas fa-undo"></i> Undo
+                </button>
+                <button id="clear-text" class="tool-btn" title="Clear all text">
+                    <i class="fas fa-trash-alt"></i> Clear
+                </button>
+                <button id="toggle-chaos" class="tool-btn" style="display: none;" title="Save document">
+                    <i class="fas fa-save"></i> Save
+                </button>
+            </div>
+        </div>
+
+        <div class="input-section">
+            <div id="text-input" contenteditable="true" data-placeholder="✨ Start writing your masterpiece here..."></div>
+            <div id="bubble-container" class="bubble-container"></div>
+        </div>
+
+        <div class="status-bar" style="display: none;">
+            <div class="chaos-status">Status: <span id="chaos-indicator">Ready</span></div>
+            <div class="caps-status">Caps: <span id="caps-indicator">OFF</span></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

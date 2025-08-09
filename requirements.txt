@@ -1,0 +1,32 @@
+# Chaotic Keyboard Remapper - Python Dependencies
+# For system-level keyboard remapping (demonstration purposes)
+
+# Cross-platform keyboard and mouse input library
+pynput>=1.7.6
+
+# Alternative keyboard library for Windows/Linux
+keyboard>=0.13.5
+
+# For Linux systems (low-level input device access)
+evdev>=1.6.1; sys_platform == "linux"
+
+# For Linux X11 support
+python-xlib>=0.33; sys_platform == "linux"
+
+# For advanced Windows API access
+pywin32>=306; sys_platform == "win32"
+
+# For macOS specific features
+pyobjc-framework-Quartz>=9.0; sys_platform == "darwin"
+pyobjc-framework-ApplicationServices>=9.0; sys_platform == "darwin"
+
+# Development and testing
+pytest>=7.4.0
+black>=23.0.0
+flake8>=6.0.0
+
+# Note: System-level keyboard remapping requires:
+# - Administrative/root privileges
+# - Platform-specific permissions
+# - Security software may flag this as suspicious
+# - Use responsibly and only on your own systems!
